@@ -14,48 +14,39 @@
 <body>
     <!--Menu y Logo-->
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
-        <div class="container-fluid">
+    <div class="container-fluid">
         <!--Logo-->
           <a class="navbar-brand" href="#"><img src="/Img/Logo Pequeño.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programas</a>
-                <ul class="dropdown-menu">
-                    
-                  <li><a class="dropdown-item" href="discapacidad">Discapacidad</a>
-                      <a class="dropdown-item" href="proyectoempatia">Proyecto Construyendo Puentes de Empatía</a> 
-                  </li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="proyectoempleabilidad">Programa 2</a></li>
-
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="proyecto3">Programa 3</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Donaciones</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Contactos</a>
-              </li>
-            </ul>
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <!--Inicio-->
+               <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+            <!--Nosotros-->
+               <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <!--Programas-->
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="programas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programas</a>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="discapacidad">Discapacidad</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="proyectoempleabilidad">Programa 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="proyecto3">Programa 3</a></li>
+               </ul>
+            </li>
+             <!--Donaciones-->
+              <li class="nav-item"> <a class="nav-link" href="donaciones.html">Donaciones</a></li>
+              <li class="nav-item"> <a class="nav-link" href="contactos.html">Contactos</a></li>
+        </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-          </div>
         </div>
-      </nav>
+        </div>
+    </nav>
 
 
 
