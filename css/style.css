@@ -1,4 +1,8 @@
 
+:root{
+    --Encabezado:#D6EAF8;
+    --Enlace:#0A4E91;
+}
 
 #logo{
     width: 20%;
@@ -6,4 +10,8 @@
 
 #menu{
    background-color: #D6EAF8  !important;
+}
+.nav-link{
+    color: #ffffff;
+    font-weight: bold;
 }
