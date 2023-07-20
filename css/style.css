@@ -9,10 +9,10 @@
 }
 
 #menu{
-   background-color: #D6EAF8  !important;
+   background-color: #000000 !important;
 }
 .nav-link{
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 .nav-link:hover{
