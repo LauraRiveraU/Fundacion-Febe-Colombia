@@ -1,19 +1,19 @@
 
 :root{
     --Encabezado:#D6EAF8;
-    --Enlace:#ffffff;
+    --Enlace:#3dc5ff;
 }
 
 
 #menu{
-   background-color: #000000  !important;
+   background-color: #ffffff  !important;
 }
 .nav-link{
-    color: #ffffff;
+    color: #3dc5ff;
     font-weight: bold;
 }
 .nav-link:hover{
-    color: #3dc5ff;
+    color: #ff3131;
 }
 
 .alto-img{
