@@ -1,7 +1,7 @@
 
 :root{
     --Encabezado:#D6EAF8;
-    --Enlace:#0A4E91;
+    --Enlace:#ffffff;
 }
 
 #logo{
@@ -9,7 +9,7 @@
 }
 
 #menu{
-   background-color: #000000 !important;
+   background-color: #000000  !important;
 }
 .nav-link{
     color: #ffffff;
