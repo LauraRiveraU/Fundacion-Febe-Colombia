@@ -16,19 +16,22 @@
     color: #ff3131;
 }
 
-
-
 .alto-img{
     height: 610px !important;
     padding-top: 75px;
-
 }
 
-.card{
-    display: inline-block;
-}
+/* Campos de desarrolo*/
 
-h2 .desarrollo{
+#campos{
+    background-color: #3dc5ff;
+}
+#campos .desarrollo{
+    width: 100%;
     text-align: center;
+    color: #ffffff;
 }
+
+
+
   
