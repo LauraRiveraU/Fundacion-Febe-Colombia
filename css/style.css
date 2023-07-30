@@ -13,23 +13,23 @@
     font-weight: bold;
 }
 .nav-link:hover{
-    color: #ff3131;
+    color: #3498DB ;
 }
 
 .alto-img{
-    height: 610px !important;
+    height: 680px !important;
     padding-top: 75px;
 }
 
 /* Campos de desarrolo*/
 
 #campos{
-    background-color: #3dc5ff;
+    background-color: #D6EAF8;
 }
 #campos .desarrollo{
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 
