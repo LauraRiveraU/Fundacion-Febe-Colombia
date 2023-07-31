@@ -41,5 +41,10 @@ body{
 
 #videos{
     background-color: #E8DAEF;
-   
+}
+
+#videos .videos{
+    text-align: center;
+    color: #000000;
+    width: 80%;
 }
