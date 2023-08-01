@@ -117,8 +117,27 @@ body{
     font-size: 1.2rem;
 }
 .footer__info{
-    color:#ffffff;
+    color:#000000;
     line-height: 30px;
     font-size: 1.0rem;
-    
 }
+
+.footer__link:nth-last-child(1){
+    border-left: 2px solid #0f649d;
+}
+
+.footer__link:nth-last-child(2){
+    border-left: 2px solid #0f649d;
+}
+
+.footer__link:nth-last-child(3){
+    border-left: 2px solid #0f649d;
+}
+
+.footer-credits{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    background-color: #3498DB;
+}
+
