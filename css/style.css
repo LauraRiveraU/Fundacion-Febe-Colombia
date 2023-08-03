@@ -121,7 +121,7 @@ body{
     line-height: 30px;
     font-size: 1.0rem;
 }
-
+/*
 .footer__link:nth-last-child(1){
     border-left: 2px solid #0f649d;
 }
@@ -133,7 +133,7 @@ body{
 .footer__link:nth-last-child(3){
     border-left: 2px solid #0f649d;
 }
-
+*/
 .footer-credits{
     width: 100%;
     color: #ffffff;
