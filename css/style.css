@@ -118,7 +118,7 @@ body{
 }
 .footer__info{
     color:#000000;
-    line-height: 30px;
+    line-height: 15px;
     font-size: 1.0rem;
 }
 /*
@@ -140,4 +140,27 @@ body{
     text-align: center;
     background-color: #3498DB;
 }
+
+/* Página de contacto  */
+
+#Contacto{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    /*margin: 15px auto;
+     background-color: #72d2ec;
+     background-image: url(/img/FondoContacto.png);*/
+     background-size: cover;
+     padding: 10px;
+ }
+
+ #Contacto h2, label{
+    color: #000000;
+    width: 100%;
+ }
+ #Contacto input, textarea{
+    width: 600px;
+    border-radius: 10px;
+    padding: 15px 10px;
+ }
 
