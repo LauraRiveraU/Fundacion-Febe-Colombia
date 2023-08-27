@@ -169,3 +169,37 @@ body{
     padding: 15px 10px;
  }
 
+/* Pagina Nosotros */
+
+.qsomos{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.accordion{  
+    width: 100%;
+    text-align: center;
+    padding: 150px 0 150px;
+}
+
+.equipo{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.etrabajo{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+  
+.card-img-top{
+    border-radius: 300px;
+    padding: 30px;
+}
+
+
+
+
