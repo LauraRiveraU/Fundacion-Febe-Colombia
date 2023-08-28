@@ -169,6 +169,10 @@ body{
     padding: 15px 10px;
  }
 
+#bodycontacto{
+    background-image: url(/Img/FondoContacto.png);
+}
+
 /* Pagina Nosotros */
 
 .qsomos{
@@ -181,24 +185,84 @@ body{
     width: 100%;
     text-align: center;
     padding: 150px 0 150px;
+    background-color: #E8DAEF;
 }
 
-.equipo{
-    width: 30%;
+#equipo{
+    width: 33%;
     display: inline-block;
-    text-align: center;
-    padding: 10px;
-}
-.etrabajo{
-    width: 100%;
     text-align: center;
     padding: 15px;
 }
-  
-.card-img-top{
-    border-radius: 300px;
-    padding: 30px;
+#tituloetrabajo{
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
 }
+  
+.img-trabajo{
+    border-radius: 300px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Pagina Donaciones */
+
+.donaciones{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #E8DAEF;
+    padding: 80px;
+}
+
+#valor{
+    display: inline-block;
+    border-radius: 100px !important;
+    padding: 15px;
+}
+
+#bdonar{
+    display: flex;
+}
+
+#Contactodonaciones{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    padding: 80px;
+    background-color: #E8DAEF;
+ }
+
+ #Contactodonaciones h2, label{
+    color: #000000;
+    width: 100%;
+ }
+ #Contactodonaciones input, textarea{
+    width: 600px;
+    border-radius: 10px;
+    padding: 15px 10px;
+ }
+
+ .containerdonaciones{
+    width: 100%;
+}
+
+#bodydonaciones{
+    background-color: #3498DB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
