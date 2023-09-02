@@ -175,24 +175,29 @@ body{
 
 /* Pagina Nosotros */
 
-.qsomos{
+
+#Somos{
     width: 100%;
-    text-align: center;
-    padding: 20px;
+    padding: 100px;
+   
 }
 
-.accordion{  
+#Somos .quienessomos{
     width: 100%;
+    padding: 50px;
     text-align: center;
-    padding: 150px 0 150px;
-    background-color: #E8DAEF;
 }
-
 #equipo{
     width: 33%;
     display: inline-block;
     text-align: center;
     padding: 15px;
+  
+}
+#equipo .equipoetrabajo{
+    width: 100%;
+    text-align: center;
+    padding:30px;
 }
 #tituloetrabajo{
     width: 100%;
@@ -204,6 +209,10 @@ body{
     border-radius: 300px;
     padding: 10px;
     width: 100%;
+}
+
+.body-nosotros{
+    background-color: #AED6F1
 }
 
 /* Pagina Donaciones */
